@@ -1,0 +1,95 @@
+﻿
+@{
+    ViewBag.Title = "Specialized Calibration & Measurement Instrumentation - About";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string mashapeKey = System.Configuration.ConfigurationManager.AppSettings["mashapeKey"];
+}
+
+<script src="~/js/jquery.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        LoadDate();
+        LoadWeather();
+    });
+
+    function LoadDate() {
+        $("#todayMonth").html(Date().split(' ')[1]);
+        $("#todayDate").html(Date().split(' ')[2]);
+        $("#todayYear").html(Date().split(' ')[3]);
+    }
+
+    function LoadWeather() {
+        $.ajax({
+            type: "GET",
+            url: 'https://simple-weather.p.mashape.com/weather?lat=25.2854&lng=51.5310',
+            async: true,
+            contentType: "application/json;charset=utf-8",
+            headers: { 'X-Mashape-Key': '@mashapeKey' },
+            beforeSend: function () {
+                $('#weatherUpdate').html('<p><i class="fa fa-refresh fa-spin"></i> Fetching weather details...</p>').fadeIn();
+            },
+            success: function (data) {
+                if (data != '') {
+                    $('#weatherUpdate').html(data);
+                }
+                else {
+                    $('#weatherUpdate').html("Can't able to fetch weather details. Please try again.");
+                }
+            },
+            error: function (xhr) {
+                $('#weatherUpdate').html("Can't able to fetch weather details. Please try again.");
+            }
+        });
+    }
+
+</script>
+<section id="blogArchive">
+    <div class="row">
+        <div class="col-lg-12 col-md-12">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <!-- Start Blog Archive Area -->
+                        <div class="blogArchive-area">
+                            <div class="row">
+                                <!-- Start Blog Content -->
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="blog-content">
+                                        <!-- Start Single Blog -->
+                                        <div class="single-Blog">
+                                            <div class="single-blog-left">
+                                                <ul class="blog-comments-box">
+                                                    <li><span id="todayMonth"></span> <h2 id="todayDate"></h2><span id="todayYear"></span></li>
+                                                    <li>Today's Weather<span class="fa fa-cloud"></span><span id="weatherUpdate"></span></li>
+                                                </ul>
+                                            </div>
+                                            <div class="single-blog-right">
+                                                <div class="blog-img">
+                                                    <figure class="blog-figure">
+                                                        <a><img alt="img" src="~/images/SCMI Images/aboutusImage.jpg"></a>
+                                                        <span class="image-effect"></span>
+                                                    </figure>
+                                                </div>
+                                                <div class="blog-content blog-details">
+                                                    <h2>Specialized Calibration & Measurement Instrumentation</h2>
+                                                    <p>We established in the year 2015 to serve industry with distinction. The driving force of the company is its Founder Chairman, a thoroughed dedicated Instrument Professional, ably supported qualified-trained personnel to offer customers applications engineering & after sales service support. We have qualified and trained personnel to offer customers satisfaction. We have a combination of experience/expertise/contacts, connections & association to present you truly cost effective services!</p>
+                                                    <p>We also have a sophisticated Calibration Lab to fully support – through’ Traceable Calibrations for Systems and Calibrators. The facilities include Pressure, Temperature and Electrical Parameter Calibration Standards. This Calibration Lab offers Site (including overseas customer site!) as well as Lab Calibration.</p>
+                                                    <blockquote>This Calibration Lab offers structured Training Courses & Workshops on Calibration Methods & Techniques. This Calibration Lab enjoys the unique distinction of obtaining Accreditation for Thermal / Electro-Technical / Dimensional & Mechanical (Pressure & Sound Level, Mass) parameters to be able to offer Traceable Calibration Certificates.</blockquote>
+                                                    <p>We represents several reputed Overseas Principals in the field of instrumentation and markets their products in Qatar. The wide range of products includes a variety of Test & Measuring Instruments.</p>
+                                                    <p>We continue to work on developing & import substitution products to meet the demands of industry both from Quality & Economy aspects!</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+

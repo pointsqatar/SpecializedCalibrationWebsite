@@ -1,18 +1,135 @@
 ﻿
 @{
-    Layout = null;
+    ViewBag.Title = "Specialized Calibration & Measurement Instrumentation - Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
-    <div> 
-        <h1>Coming soon!</h1>
+<!--=========== BEGIN SLIDER SECTION ================-->
+<section id="sliderArea">
+    <!-- Start slider wrapper -->
+    <div class="top-slider">
+        <!-- Start First slide -->
+        <div class="top-slide-inner">
+            <div class="slider-img">
+                <img src="~/images/calib1.jpg" alt="">
+            </div>
+            <div class="slider-text">
+                <h2 style="color:bisque">A <strong>Leader</strong> Among Calibration Companies</h2>
+                <p>We are <strong>one of the best</strong> provider for calibration services in Qatar</p>
+                <div class="readmore_area">
+                    <a data-hover="Read More" href="#"><span>Read More</span></a>
+                </div>
+            </div>
+        </div>
+        <!-- End First slide -->
+        <!-- Start 2nd slide -->
+        <div class="top-slide-inner">
+            <div class="slider-img">
+                <img src="~/images/calib2.jpg" alt="">
+            </div>
+            <div class="slider-text">
+                <h2 style="color:black">Meeting the <strong style="color:crimson">highest</strong> standards</h2>
+                <p>With a highly <strong style="color:orangered">Trained</strong> and <strong style="color:orangered">Qualified</strong> staff to provide you the best service</p>
+                <div class="readmore_area">
+                    <a data-hover="Read More" href="#"><span>Read More</span></a>
+                </div>
+            </div>
+        </div>
+        <!-- End 2nd slide -->
+        <!-- Start Third slide -->
+        <div class="top-slide-inner">
+            <div class="slider-img">
+                <img src="~/images/calib3.jpg" alt="">
+            </div>
+            <div class="slider-text">
+                <h2><strong style="color:cornflowerblue">Quality</strong> in Service</h2>
+                <p>You can trust for <strong style="color:cornflowerblue">consistency</strong> and <strong style="color:cornflowerblue">accuracy</strong></p>
+                <div class="readmore_area">
+                    <a data-hover="Read More" href="#"><span>Read More</span></a>
+                </div>
+            </div>
+        </div>
+        <!-- End Third slide -->
+        <!-- Start Fourth slide -->
+        <div class="top-slide-inner">
+            <div class="slider-img">
+                <img src="~/images/calib4.jpg" alt="">
+            </div>
+            <div class="slider-text">
+                <h2 style="color:brown">Calibration <strong>Training</strong> Program</h2>
+                <p style="color:black">Our unique solution to <strong style="color:mintcream">Learn</strong> and <strong style="color:mintcream">Get Certified</strong></p>
+                <div class="readmore_area">
+                    <a data-hover="Read More" href="#"><span>Read More</span></a>
+                </div>
+            </div>
+        </div>
+        <!-- End Fourth slide -->
+    </div><!-- /top-slider -->
+</section>
+<!--=========== END SLIDER SECTION ================-->
+<!--=========== BEGIN Top Feature SECTION ================-->
+<section id="topFeature">
+    <div class="row">
+        <!-- Start Single Top Feature -->
+        <div class="col-lg-4 col-md-4">
+            <div class="row">
+                <div class="single-top-feature">
+                    <span class="fa fa-dashboard"></span>
+                    <h3>Calibration Services</h3>
+                    <p>We recognised as the independent organisation for accrediting the integrity and competence of personnel, measurement parameters and quality systems.We combines a tradition of engineering excellence with a forward thinking.</p>
+                    <div class="readmore_area">
+                        <a href="#" data-hover="Services"><span>Read More</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Single Top Feature -->
+        <!-- Start Single Top Feature -->
+        <div class="col-lg-4 col-md-4">
+            <div class="row">
+                <div class="single-top-feature opening-hours">
+                    @*<span class="fa fa-clock-o"></span>*@
+                    <i><img style="width:50px" src="~/images/training.png" /> </i>
+                    <h3>Training</h3>
+                    <p>Instructors are experts who work in electrical calibration, temperature calibration, pressure and flow calibration, and who really want to help you learn the foundation and techniques of calibration.</p>
+                    <ul class="opening-table">
+                        <li>
+                            <span>Courses</span>
+                            <div class="value">
+                                <span class="fa fa-check-square-o"></span>
+                            </div>
+                        </li>
+                        <li>
+                            <span>Workshops</span>
+                            <div class="value">
+                                <span class="fa fa-check-square-o"></span>
+                            </div>
+                        </li>
+                        <li>
+                            <span>Certificate</span>
+                            <div class="value">
+                                <span class="fa fa-check-square-o"></span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Single Top Feature -->
+        <!-- Start Single Top Feature -->
+        <div class="col-lg-4 col-md-4">
+            <div class="row">
+                <div class="single-top-feature">
+                    <span class="fa fa-envelope-o"></span>
+                    <h3>Want to know?</h3>
+                    <p>For general inquiries, or if you have a specific question about our services please do mail us. We will contact you as soon as possible. We would like to hear from you!</p>
+                    <div class="readmore_area">
+                        <a href="@Url.Action("contact","home")" data-hover="Message"><span>Contact</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Single Top Feature -->
     </div>
-</body>
-</html>
+</section>
+<!--=========== END Top Feature SECTION ================-->

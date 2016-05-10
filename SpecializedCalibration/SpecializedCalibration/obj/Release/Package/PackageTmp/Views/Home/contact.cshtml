@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewBag.Title = "Specialized Calibration & Measurement Instrumentation - Contact";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<!--=========== BEGIN Google Map SECTION ================-->
+<section id="googleMap">
+    <!--Location(Lat,Long) - 25.258630 , 51.429924 -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28866.840785752374!2d51.41240708372235!3d25.258637467512965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDE1JzMxLjEiTiA1McKwMjUnNDcuNyJF!5e0!3m2!1sen!2s!4v1462790448538" width="100%" height="500" frameborder="0" style="border:0"></iframe>
+</section>
+
+<!--=========== END Google Map SECTION ================-->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="contact-form">
+                    <div class="section-heading">
+                        <h2>Contact Us</h2>
+                        <div class="line"></div>
+                    </div>
+                    <p>Fill out all required Field to send a Message. Please don't spam,Thank you!</p>
+                    <form id="main-contact-form" class="submitphoto_form">
+                        <input id="userName" type="text" class="wp-form-control wpcf7-text" placeholder="Your name" required>
+                        <input id="userMailId" type="email" class="wp-form-control wpcf7-email" placeholder="Email address" required>
+                        <input id="userPhoneNo" type="number" class="wp-form-control" placeholder="Phone Number" required>
+                        <input id="userCmpyName" type="text" class="wp-form-control wpcf7-text" placeholder="Company Name" required>
+                        <input id="userSubject" type="text" class="wp-form-control wpcf7-text" placeholder="Subject" required>
+                        <textarea id="userMessage" class="wp-form-control wpcf7-textarea" cols="30" rows="10" placeholder="What would you like to tell us" required></textarea>
+                        <button id="btnSend" class="wpcf7-submit button--itzel" type="submit"><i class="button__icon fa fa-envelope"></i><span>Send Message</span></button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="contact-address">
+                    <div class="section-heading">
+                        <h2>Address</h2>
+                        <div class="line"></div>
+                    </div>
+                    <p>You can reach us on our below address.</p>
+                    <address class="contact-info">
+                        <p style="font-size:13px">
+                            <span class="fa fa-building"></span>
+                            Muaither - State of Qatar, Zone 55, St. No. 288, Bldg. No. 288, Offie No. 3
+                        </p>
+                        <p><span class="fa fa-phone"></span>+974-33001392</p>
+                        <p><span class="fa fa-envelope"></span><a href="mailto:info@specializedcalibration.com">info@specializedcalibration.com</a></p>
+                    </address>
+                    <h3>Social Media</h3>
+                    <div class="social-share">
+                        <ul>
+                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
