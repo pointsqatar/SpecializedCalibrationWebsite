@@ -165,6 +165,12 @@
     <Content Include="images\SCMI Images\Trades\trade2.jpg" />
     <Content Include="images\SCMI Images\Trades\trade3.jpg" />
     <Content Include="images\SCMI Images\Trades\trade4.jpg" />
+    <Content Include="images\Services\calibration.png" />
+    <Content Include="images\Services\certificate.png" />
+    <Content Include="images\Services\gap analysis.png" />
+    <Content Include="images\Services\measurement.png" />
+    <Content Include="images\Services\qualification.png" />
+    <Content Include="images\Services\training.png" />
     <Content Include="images\small-blog-img1.jpg" />
     <Content Include="images\small-blog-img2.jpg" />
     <Content Include="images\Specialized-Logo.gif" />

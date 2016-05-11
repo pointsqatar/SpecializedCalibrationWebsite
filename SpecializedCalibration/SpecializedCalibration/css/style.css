@@ -533,7 +533,7 @@ img {
     padding: 100px 30px 10px;
     position: absolute;
     right: 0;
-    top: 10%;
+    top: 25%;
     width: 80%;
 }
 
@@ -826,7 +826,7 @@ img {
     float: left;
     display: inline;
     width: 100%;
-    padding: 75px 0px;
+    padding: 5px 0px;
 }
 
 .whyChoose-left {
@@ -1030,7 +1030,7 @@ img {
     float: left;
     display: inline;
     width: 100%;
-    padding: 75px 0px;
+    padding: 75px 0px 0px;
 }
 
 .meetDoctors-area {
@@ -1616,7 +1616,7 @@ figure.blog-figure:hover .image-effect::before {
     display: inline;
     float: left;
     min-height: 100px;
-    padding: 45px 0;
+    padding: 5px 0;
     width: 100%;
 }
 
@@ -2478,7 +2478,7 @@ figure.blog-figure:hover .image-effect::before {
     float: left;
     display: inline;
     width: 100%;
-    padding: 75px 0px;
+    padding: 5px 0px;
 }
 
 .departments-area {
@@ -3334,7 +3334,7 @@ a.gallery-iteam:hover .image-effect::before {
 
     .slider-text {
         padding: 10px 5px;
-        top: 10%;
+        top: 33%;
     }
 
         .slider-text h2 {
