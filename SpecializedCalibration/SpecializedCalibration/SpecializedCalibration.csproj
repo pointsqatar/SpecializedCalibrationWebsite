@@ -152,6 +152,30 @@
     <Content Include="images\gallery\gallery-small-3.jpg" />
     <Content Include="images\gallery\gallery-small-4.jpg" />
     <Content Include="images\gallery\gallery-small-5.jpg" />
+    <Content Include="images\gallery\img-1-large.jpg" />
+    <Content Include="images\gallery\img-1-small.jpg" />
+    <Content Include="images\gallery\img-2-large.jpg" />
+    <Content Include="images\gallery\img-2-small.jpg" />
+    <Content Include="images\gallery\img-3-large.jpg" />
+    <Content Include="images\gallery\img-3-small.jpg" />
+    <Content Include="images\gallery\img-4-large.jpg" />
+    <Content Include="images\gallery\img-4-small.jpg" />
+    <Content Include="images\gallery\img-5-large.jpg" />
+    <Content Include="images\gallery\img-5-small.jpg" />
+    <Content Include="images\gallery\img-6-large.jpg" />
+    <Content Include="images\gallery\img-6-small.jpg" />
+    <Content Include="images\gallery\img-7-large.jpg" />
+    <Content Include="images\gallery\img-7-small.jpg" />
+    <Content Include="images\gallery\img-8-large.jpg" />
+    <Content Include="images\gallery\img-8-small.jpg" />
+    <Content Include="images\gallery\office-1-large.jpg" />
+    <Content Include="images\gallery\office-1-small.jpg" />
+    <Content Include="images\gallery\office-2-large.jpg" />
+    <Content Include="images\gallery\office-2-small.jpg" />
+    <Content Include="images\gallery\office-3-large.jpg" />
+    <Content Include="images\gallery\office-3-small.jpg" />
+    <Content Include="images\gallery\office-4-large.jpg" />
+    <Content Include="images\gallery\office-4-small.jpg" />
     <Content Include="images\gallery\preloader.gif" />
     <Content Include="images\logo.png" />
     <Content Include="images\next_icon.png" />
@@ -161,6 +185,9 @@
     <Content Include="images\patients-3.jpg" />
     <Content Include="images\prev_icon.png" />
     <Content Include="images\SCMI Images\aboutusImage.jpg" />
+    <Content Include="images\SCMI Images\choose-us-img1.jpg" />
+    <Content Include="images\SCMI Images\choose-us-img2.jpg" />
+    <Content Include="images\SCMI Images\choose-us-img3.jpg" />
     <Content Include="images\SCMI Images\Trades\trade1.jpg" />
     <Content Include="images\SCMI Images\Trades\trade2.jpg" />
     <Content Include="images\SCMI Images\Trades\trade3.jpg" />
@@ -192,6 +219,8 @@
     <Content Include="js\waypoints.min.js" />
     <Content Include="css\style.css" />
     <Content Include="MailTemplate.html" />
+    <Content Include="robots.txt" />
+    <Content Include="sitemap.xml" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -217,6 +246,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Documents\Specialized Calibration.pdf" />
     <None Include="Properties\PublishProfiles\specializedcalibration.pubxml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
