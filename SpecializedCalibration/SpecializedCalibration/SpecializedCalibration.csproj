@@ -200,7 +200,7 @@
     <Content Include="images\Services\training.png" />
     <Content Include="images\small-blog-img1.jpg" />
     <Content Include="images\small-blog-img2.jpg" />
-    <Content Include="images\Specialized-Logo.gif" />
+    <Content Include="images\Specialized-Logo.png" />
     <Content Include="images\status.gif" />
     <Content Include="images\team-next-icon.png" />
     <Content Include="images\team-prev-icon.png" />
@@ -265,7 +265,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\MailManager\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

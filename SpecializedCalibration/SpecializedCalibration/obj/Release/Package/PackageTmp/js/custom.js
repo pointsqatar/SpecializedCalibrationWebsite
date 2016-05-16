@@ -207,7 +207,7 @@ jQuery(function ($) {
             contentType: "application/json;charset=utf-8",
             processData: true,
             beforeSend: function () {
-                form.prepend(form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Email is sending...</p>').fadeIn());
+                form.prepend(form_status.html('<p><i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i> Sending Email. Please wait.</p>').fadeIn());
             },
             success: function (data) {
                 var result;

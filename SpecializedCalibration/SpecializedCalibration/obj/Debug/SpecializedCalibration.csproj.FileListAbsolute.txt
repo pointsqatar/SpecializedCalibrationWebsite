@@ -80,5 +80,6 @@ D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCali
 D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCalibration\bin\System.Web.Webpages.Razor.xml
 D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCalibration\bin\System.Web.Helpers.xml
 D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCalibration\bin\System.Web.Mvc.xml
+D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCalibration\obj\Debug\SpecializedCalibration.csprojResolveAssemblyReference.cache
 D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCalibration\obj\Debug\SpecializedCalibration.dll
 D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCalibration\obj\Debug\SpecializedCalibration.pdb
