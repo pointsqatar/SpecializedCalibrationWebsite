@@ -329,7 +329,7 @@ img {
 #sliderArea {
     display: inline;
     float: left;
-    margin-top: 70px;
+    margin-top: 0px;
     width: 100%;
 }
 
@@ -662,7 +662,7 @@ img {
     display: inline;
     width: 100%;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .service-content {
@@ -1031,6 +1031,7 @@ img {
     display: inline;
     width: 100%;
     padding: 75px 0px 0px;
+    margin-top: -100px;
 }
 
 .meetDoctors-area {
@@ -1778,7 +1779,7 @@ figure.blog-figure:hover .image-effect::before {
 #blogArchive {
     display: inline;
     float: left;
-    margin-top: 90px;
+    margin-top: 140px;
     width: 100%;
 }
 
@@ -2583,6 +2584,7 @@ figure.blog-figure:hover .image-effect::before {
     display: inline;
     width: 100%;
     padding: 75px 0px;
+    margin-top: -100px;
 }
 
 .gallery-area {
@@ -3240,7 +3242,7 @@ a.gallery-iteam:hover .image-effect::before {
     }
 
     #sliderArea {
-        margin-top: 70px;
+        margin-top: 0px;
     }
 
     .navbar-right .dropdown-menu::before {
@@ -3286,7 +3288,7 @@ a.gallery-iteam:hover .image-effect::before {
 
     .footer-copyright {
         text-align: center;
-        width:100%;
+        width: 100%;
     }
 
     .footer-social {

@@ -17,6 +17,8 @@ namespace SpecializedCalibration.Controllers
             ViewBag.IsTradingActive = string.Empty;
             ViewBag.IsGalleryActive = string.Empty;
             ViewBag.IsContactActive = string.Empty;
+            ViewBag.currentPageHeading = "Calibration starts here";
+            ViewBag.currentPage = "Index";
             return View();
         }
 
@@ -28,6 +30,8 @@ namespace SpecializedCalibration.Controllers
             ViewBag.IsTradingActive = string.Empty;
             ViewBag.IsGalleryActive = string.Empty;
             ViewBag.IsContactActive = "active";
+            ViewBag.currentPageHeading = "Just reach us on";
+            ViewBag.currentPage = "Conact";
             return View();
         }
 
@@ -39,6 +43,8 @@ namespace SpecializedCalibration.Controllers
             ViewBag.IsTradingActive = string.Empty;
             ViewBag.IsGalleryActive = string.Empty;
             ViewBag.IsContactActive = string.Empty;
+            ViewBag.currentPageHeading = "Specialized Calibration";
+            ViewBag.currentPage = "About";
             return View();
         }
 
@@ -50,6 +56,8 @@ namespace SpecializedCalibration.Controllers
             ViewBag.IsTradingActive = "active";
             ViewBag.IsGalleryActive = string.Empty;
             ViewBag.IsContactActive = string.Empty;
+            ViewBag.currentPageHeading = "Calibration equipments";
+            ViewBag.currentPage = "Trading";
             return View();
         }
 
@@ -61,6 +69,8 @@ namespace SpecializedCalibration.Controllers
             ViewBag.IsTradingActive = string.Empty;
             ViewBag.IsGalleryActive = string.Empty;
             ViewBag.IsContactActive = string.Empty;
+            ViewBag.currentPageHeading = "Calibration services";
+            ViewBag.currentPage = "Services";
             return View();
         }
 
@@ -72,6 +82,8 @@ namespace SpecializedCalibration.Controllers
             ViewBag.IsTradingActive = string.Empty;
             ViewBag.IsGalleryActive = "active";
             ViewBag.IsContactActive = string.Empty;
+            ViewBag.currentPageHeading = "Have a look on our galleries";
+            ViewBag.currentPage = "Gallery";
             return View();
         }
     }

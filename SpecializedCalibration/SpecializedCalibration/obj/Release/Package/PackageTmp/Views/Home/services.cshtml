@@ -1,16 +1,19 @@
 ﻿
 @{
-    ViewBag.Title = "Specialized Calibration & Measurement Instrumentation - Services";
+    ViewBag.Title = "Calibration Services Doha | Qatar - Services";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 @section metaKeywords
 {
-    <meta name="keywords" Content="specialized calibration, calibration in qatar, Temperature Indicators, Pressure Controllers, dimensional, force, pressure, calibration, calibrate, extensometer,
-          equipment calibration, Temperature Sensors, gap analysis, calibration certificates, repair testing machines, calibrate instruments, Stump, digital retrofits, Temperature Thermometers, calibration retrofits,Incubators,
-          Pressure Gauge, calibration trainings">
-}
+    <meta name="description" content="Our Calibration Services is a full-serviced and repair laboratory in Doha, State of Qatar." />
 
+    <meta name="keywords" content="doha calibration services, calibration,calibration services, calibration in qatar, on site calibration,instrument calibration,equipment calibration,test equipment calibration,calibration labs,calibration laboratories,accredited calibration service,mechanical calibration,dimensional calibration,calibration vendor,calibration certification,metrology services,electronic calibrations,gage calibration,temperature calibration, pressure calibration,scale calibration,flow calibration,force calibration,torque calibration,fiber optic calibration,weight calibration" />
+}
+@section canonical
+{
+    <link rel="canonical" href="@(HttpContext.Current.Request.Url.GetLeftPart(UriPartial.Authority) + "/home/services")" />
+}
 <!--=========== BEGIN Service SECTION ================-->
 <section id="meetDoctors">
     <div class="container">
@@ -29,7 +32,7 @@
                             <div class="col-lg-4 col-md-4">
                                 <div class="single-service">
                                     <div class="service-icon">
-                                        <i><img style="width:50px" src="~/images/Services/calibration.png" /> </i>
+                                        <i><img style="width:50px" src="~/images/Services/calibration.png" alt="calibration service 1" /> </i>
                                     </div>
                                     <h3><a>Calibration Services</a></h3>
                                     <p>Our Calibration Services like electrical, temperature and pressure facility is not only accredited at our in-house laboratories but also for measurement at customers premises.</p>
@@ -39,7 +42,7 @@
                             <div class="col-lg-4 col-md-4">
                                 <div class="single-service">
                                     <div class="service-icon">
-                                        <i><img style="width:50px" src="~/images/Services/gap analysis.png" /> </i>
+                                        <i><img style="width:50px" src="~/images/Services/gap analysis.png" alt="calibration service 2" /> </i>
                                     </div>
                                     <h3><a>Gap Analysis</a></h3>
                                     <p>Gap Analysis Done on site for customer demands on the services the customer should do for working areas to comply with the required specification (ISO, WHO,…etc.)</p>
@@ -48,7 +51,7 @@
                             <div class="col-lg-4 col-md-4">
                                 <div class="single-service">
                                     <div class="service-icon">
-                                        <i><img style="width:45px" src="~/images/Services/measurement.png" /> </i>
+                                        <i><img style="width:45px" src="~/images/Services/measurement.png" alt="calibration service 3" /> </i>
                                     </div>
                                     <h3><a>Measurement Services</a></h3>
                                     <p>Our Measurement services allow manufacturing processes to be kept in control from one day to the next and from one factory to another.</p>

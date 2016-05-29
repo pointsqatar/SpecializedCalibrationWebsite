@@ -1,16 +1,21 @@
 ﻿
 @{
-    ViewBag.Title = "Specialized Calibration & Measurement Instrumentation - About";
+    ViewBag.Title = "Calibration Services Doha | Qatar - About";
     Layout = "~/Views/Shared/_Layout.cshtml";
     string mashapeKey = System.Configuration.ConfigurationManager.AppSettings["mashapeKey"];
 }
 
 @section metaKeywords
 {
-    <meta name="keywords" Content="specialized calibration, about specialized calibration, measurement instruemtation, calibration in qatar, dimensional, force, pressure, calibration, calibrate, extensometer,
-          equipment calibration, repair testing machines, calibrate instruments, Stump, digital retrofits, calibration retrofits">
+    <meta name="description" content="Our Calibration Services is a full-serviced and repair laboratory in Doha, State of Qatar." />
+
+    <meta name="keywords" content="calibration,calibration services, calibration in qatar, on site calibration,instrument calibration,equipment calibration,test equipment calibration,calibration labs,calibration laboratories,accredited calibration service,mechanical calibration,dimensional calibration,calibration vendor,calibration certification,metrology services,electronic calibrations,gage calibration,temperature calibration, pressure calibration,scale calibration,flow calibration,force calibration,torque calibration,fiber optic calibration,weight calibration" />
 }
 
+@section canonical
+{
+    <link rel="canonical" href="@(HttpContext.Current.Request.Url.GetLeftPart(UriPartial.Authority) + "/home/about")" />
+}
 <script src="~/js/jquery.js"></script>
 <script type="text/javascript">
 
@@ -50,7 +55,7 @@
     }
 
 </script>
-<section id="blogArchive">
+<section id="blogArchive" style="margin-top:0px">
     <div class="row">
         <div class="col-lg-12 col-md-12">
             <div class="container">
@@ -73,7 +78,7 @@
                                             <div class="single-blog-right">
                                                 <div class="blog-img">
                                                     <figure class="blog-figure">
-                                                        <a><img alt="img" src="~/images/SCMI Images/aboutusImage.jpg"></a>
+                                                        <a><img alt="calibration instrument" src="~/images/SCMI Images/aboutusImage.jpg"></a>
                                                         <span class="image-effect"></span>
                                                     </figure>
                                                 </div>

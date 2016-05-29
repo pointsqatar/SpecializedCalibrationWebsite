@@ -1,15 +1,19 @@
 ﻿
 @{
-    ViewBag.Title = "Specialized Calibration & Measurement Instrumentation - Contact";
+    ViewBag.Title = "Calibration Services Doha | Qatar - Contact";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 @section metaKeywords
 {
-    <meta name="keywords" Content="specialized calibration, insturmentation measurement, calibration in qatar, dimensional, force, pressure, calibration, calibrate, extensometer,
-          equipment calibration, repair testing machines, calibrate instruments, Stump, digital retrofits, calibration retrofits, contact us, qatar calibration services, measurement services in qatar">
-}
+    <meta name="description" content="Our Calibration Services is a full-serviced and repair laboratory in Doha, State of Qatar." />
 
+    <meta name="keywords" content="calibration,calibration services, calibration in qatar, on site calibration,instrument calibration,equipment calibration,test equipment calibration,calibration labs,calibration laboratories,accredited calibration service,mechanical calibration,dimensional calibration,calibration vendor,calibration certification,metrology services,electronic calibrations,gage calibration,temperature calibration, pressure calibration,scale calibration,flow calibration,force calibration,torque calibration,fiber optic calibration,weight calibration" />
+}
+@section canonical
+{
+    <link rel="canonical" href="@(HttpContext.Current.Request.Url.GetLeftPart(UriPartial.Authority) + "/home/contact")" />
+}
 <!--=========== BEGIN Google Map SECTION ================-->
 <section id="googleMap">
     <!--Location(Lat,Long) - 25.258630 , 51.429924 -->
@@ -69,3 +73,28 @@
         </div>
     </div>
 </section>
+
+<script type="application/ld+json">
+    {
+    "@@context": "http://schema.org",
+    "@@type": "Organization",
+    "url": "http://www.specializedcalibration.com",
+    "contactPoint": [
+    {
+    "@@type": "ContactPoint",
+    "telephone": "+974-44211212",
+    "contactType": "sales"
+    },
+    {
+    "@@type": "ContactPoint",
+    "telephone": "+974-33001392",
+    "contactType": "sales"
+    },
+    {
+    "@@type": "ContactPoint",
+    "telephone": "+974-44272121",
+    "contactType": "customer service"
+    }
+    ]
+    }
+</script>
