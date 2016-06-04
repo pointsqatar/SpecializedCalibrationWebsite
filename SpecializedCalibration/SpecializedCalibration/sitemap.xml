@@ -1,51 +1,35 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>http://www.specializedcalibration.com</loc>
-    <xhtml:link rel="alternate" hreflang="en-qa" href="http://specializedcalibration.com" />
-    <xhtml:link rel="alternate" hreflang="ar-qa" href="http://specializedcalibration.com" />
-    <lastmod>2016-06-25T11:27:11+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>http://www.specializedcalibration.com/home/about</loc>
-    <xhtml:link rel="alternate" hreflang="en-qa" href="http://specializedcalibration.com/home/about" />
-    <xhtml:link rel="alternate" hreflang="ar-qa" href="http://specializedcalibration.com/home/about" />
-    <lastmod>2016-06-25T11:27:11+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>http://www.specializedcalibration.com/home/services</loc>
-    <xhtml:link rel="alternate" hreflang="en-qa" href="http://specializedcalibration.com/home/services" />
-    <xhtml:link rel="alternate" hreflang="ar-qa" href="http://specializedcalibration.com/home/services" />
-    <lastmod>2016-06-25T11:27:11+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>http://www.specializedcalibration.com/home/trading</loc>
-    <xhtml:link rel="alternate" hreflang="en-qa" href="http://specializedcalibration.com/home/trading" />
-    <xhtml:link rel="alternate" hreflang="ar-qa" href="http://specializedcalibration.com/home/trading" />
-    <lastmod>2016-06-25T11:27:11+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>http://www.specializedcalibration.com/home/gallery</loc>
-    <xhtml:link rel="alternate" hreflang="en-qa" href="http://specializedcalibration.com/home/gallery" />
-    <xhtml:link rel="alternate" hreflang="ar-qa" href="http://specializedcalibration.com/home/gallery" />
-    <lastmod>2016-06-25T11:27:11+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>http://www.specializedcalibration.com/home/contact</loc>
-    <xhtml:link rel="alternate" hreflang="en-qa" href="http://specializedcalibration.com/home/contact" />
-    <xhtml:link rel="alternate" hreflang="ar-qa" href="http://specializedcalibration.com/home/contact" />
-    <lastmod>2016-06-25T11:27:11+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.80</priority>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://www.specializedcalibration.com/</loc>
+  <lastmod>2016-06-04T06:07:51+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.specializedcalibration.com/home/about</loc>
+  <lastmod>2016-06-04T06:07:51+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.specializedcalibration.com/home/services</loc>
+  <lastmod>2016-06-04T06:07:51+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.specializedcalibration.com/home/trading</loc>
+  <lastmod>2016-06-04T06:07:51+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.specializedcalibration.com/home/gallery</loc>
+  <lastmod>2016-06-04T06:07:51+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.specializedcalibration.com/home/contact</loc>
+  <lastmod>2016-06-04T06:07:51+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.specializedcalibration.com/Documents/Specialized%20Calibration.pdf</loc>
+  <lastmod>2016-06-04T06:07:51+00:00</lastmod>
+</url>
 </urlset>
