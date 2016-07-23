@@ -97,3 +97,8 @@ D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCali
 D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCalibration\bin\Microsoft.AI.Web.xml
 D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCalibration\bin\Microsoft.AI.WindowsServer.xml
 D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCalibration\bin\Microsoft.ApplicationInsights.xml
+D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCalibration\bin\Antlr3.Runtime.dll
+D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCalibration\bin\System.Web.Optimization.dll
+D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCalibration\bin\WebGrease.dll
+D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCalibration\bin\Antlr3.Runtime.pdb
+D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCalibration\bin\System.Web.Optimization.xml
