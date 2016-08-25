@@ -93,7 +93,6 @@ D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCali
 D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCalibration\bin\System.Web.WebPages.xml
 D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCalibration\bin\System.Web.WebPages.Deployment.xml
 D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCalibration\bin\System.Web.WebPages.Razor.xml
-D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCalibration\obj\Debug\SpecializedCalibration.csprojResolveAssemblyReference.cache
 D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCalibration\obj\Debug\SpecializedCalibration.dll
 D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCalibration\obj\Debug\SpecializedCalibration.pdb
 D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCalibration\bin\Antlr3.Runtime.dll
