@@ -100,3 +100,4 @@ D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCali
 D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCalibration\bin\WebGrease.dll
 D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCalibration\bin\Antlr3.Runtime.pdb
 D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCalibration\bin\System.Web.Optimization.xml
+D:\Projects\SpecializedCalibrationWebsite\SpecializedCalibration\SpecializedCalibration\obj\Debug\SpecializedCalibration.csprojResolveAssemblyReference.cache
